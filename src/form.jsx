@@ -35,15 +35,15 @@ export default function Form() {
         </Grid>
       </Grid>
       <Grid container fullWidth item>
-          <Grid item xs={12} sx={{ background: "red" }}>
-            eeeeeee
-          </Grid>
-          <Grid item xs={12} sx={{ background: "green" }}>
-            dddd
-          </Grid>
-        </Grid> */}
+        <Grid item xs={12} sx={{ background: "red" }}>
+          eeeeeee
+        </Grid>
+        <Grid item xs={12} sx={{ background: "green" }}>
+          dddd
+        </Grid>
+      </Grid>
 
-      {/* <Rating value={5}></Rating>
+      <Rating value={5}></Rating>
       <Button color="success" variant="contained">
         <AddCircleIcon />
         Hello
@@ -109,10 +109,10 @@ export default function Form() {
             control={<Radio />}
           ></FormControlLabel>
         </FormGroup>
-      <br></br>
-      <br></br>
-      <br></br>
-      <Button type="button" variant="contained">
+        <br></br>
+        <br></br>
+        <br></br>
+        <Button type="button" variant="contained">
           Click Me
         </Button>
       </form>
