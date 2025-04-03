@@ -34,7 +34,7 @@ export default function Form() {
           </Grid>
         </Grid>
       </Grid>
-      {/* <Grid container fullWidth item>
+      <Grid container fullWidth item>
           <Grid item xs={12} sx={{ background: "red" }}>
             eeeeeee
           </Grid>
@@ -108,14 +108,14 @@ export default function Form() {
             label="Female"
             control={<Radio />}
           ></FormControlLabel>
-        </FormGroup> */}
+        </FormGroup>
       <br></br>
       <br></br>
       <br></br>
-      {/* <Button type="button" variant="contained">
+      <Button type="button" variant="contained">
           Click Me
-        </Button> */}
-      {/* </form> */}
+        </Button>
+      </form>
     </>
   );
 }
