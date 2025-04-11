@@ -2,6 +2,9 @@ import { red } from "@mui/material/colors";
 import "./App.css";
 import { Typography, Button, TextField } from "@mui/material";
 import Form from "./form";
+import Childa from "./Child-a";
+import Childb from "./Child-b";
+import Paentmemo from "./Paent-memo";
 
 const App = () => {
   return (
@@ -21,7 +24,10 @@ const App = () => {
       <br></br>
       <br></br>
       <TextField type="text" placeholder="Enter " variant="standard" /> */}
-      <Form />
+      {/* <Form /> */}
+      <Paentmemo />
+      {/* <Childa />
+      <Childb /> */}
     </>
   );
 };
