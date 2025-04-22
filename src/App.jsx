@@ -5,6 +5,11 @@ import Form from "./form";
 import Childa from "./Child-a";
 import Childb from "./Child-b";
 import Paentmemo from "./Paent-memo";
+import Typographytext from "./MUI/Typography";
+import Btn from "./MUI/btn";
+import InputTy from "./MUI/InputTy";
+import Boxes from "./MUI/Boxes";
+import MyForm from "./MUI/MyForm";
 
 const App = () => {
   return (
@@ -25,9 +30,14 @@ const App = () => {
       <br></br>
       <TextField type="text" placeholder="Enter " variant="standard" /> */}
       {/* <Form /> */}
-      <Paentmemo />
+      {/* <Paentmemo /> */}
       {/* <Childa />
       <Childb /> */}
+      {/* <Typographytext /> */}
+      {/* <Btn /> */}
+      {/* <InputTy /> */}
+      {/* <Boxes /> */}
+      <MyForm />
     </>
   );
 };
