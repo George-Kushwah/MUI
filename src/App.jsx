@@ -30,14 +30,14 @@ const App = () => {
       <br></br>
       <TextField type="text" placeholder="Enter " variant="standard" /> */}
       {/* <Form /> */}
-      {/* <Paentmemo /> */}
+      <Paentmemo />
       {/* <Childa />
       <Childb /> */}
       {/* <Typographytext /> */}
       {/* <Btn /> */}
       {/* <InputTy /> */}
       {/* <Boxes /> */}
-      <MyForm />
+      {/* <MyForm /> */}
     </>
   );
 };

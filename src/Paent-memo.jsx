@@ -3,15 +3,8 @@ import Parentmemochild from "./Parent-memo-child";
 
 const Paentmemo = () => {
   const [val, setval] = useState(0);
+  const [dat, setDat] = useState(0);
   let a = { name: "abcd", jk: { fg: function () {} } };
-  useLayoutEffect(() => {
-    const startTime = new Date();
-    return () => {
-      const endTime = new Date();
-      const timeRendered = endTime - startTime;
-      console.log(timeRendered); // Expect this to be a positive number
-    };
-  }, []);
 
   useEffect(() => {
     let id;
@@ -22,8 +15,14 @@ const Paentmemo = () => {
       clearTimeout(id);
     };
   }, []);
+  const addset = () => {
+    setDat(dat + 1);
+    console.log(dat);
+  };
+
   return (
     <div>
+      <p onClick={addset}>{dat}</p>
       {val}
       <Parentmemochild check={JSON.stringify(a)} />
     </div>
